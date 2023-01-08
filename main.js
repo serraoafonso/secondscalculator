@@ -39,11 +39,11 @@ var segundos = Number(tsegundos.value)
 
 var total = seculos + decadas + anos + semanas + dias + horas + minutos + segundos;
 
-/*var segundostotais = document.getElementById('segundostotais')
 
-segundostotais.innerHTML = ` O número de segundos totais é de ${total}`*/
 
-document.getElementById('segundostotais').innerHTML ="The total number of Seconds is " + total
+document.getElementById('segundostotais').innerHTML ="The total number of seconds is " + total +'.'
+
+
 
 }
 
